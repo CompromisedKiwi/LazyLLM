@@ -2,9 +2,6 @@
 
 ## 测试分类
 
-
-
-
 测试分为 `basic_tests` , `charge_tests` , `advanced_tests/standard` , `advanced_tests/full` 四类。
 
 - `basic_tests` : 基本的测试，主要测一些基本功能
