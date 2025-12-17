@@ -151,6 +151,9 @@ jobs:
         python-version: ["3.10", "3.11", "3.12", "3.13"]
     
     steps:
+    # 在CI中生成和使用锁定文件
+# pip-compile pyproject.toml --output-file=requirements-lock.txt
+# pip-sync requirements-lock.txt
       - name: Download repo-with-docs
         uses: actions/download-artifact@v4
         with:
